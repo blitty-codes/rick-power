@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import PropTypes from "prop-types";
+import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 // svg from https://fontawesome.com/v5.15/icons/search?style=solid
 
