@@ -17,7 +17,7 @@ const Card = ({ id, name, gender, status, image }) => {
           <p className="text-gray-500 font-medium">{ gender }</p>
 					<p className="text-gray-500 text-opacity-75 font-medium">{status === 'Alive' ? '🟢' : status === 'unknown' ? '❓' : '🔴'} { status }</p>
         </div>
-        <Link to={`/charInfo/${id}`}>
+        <Link to={`/rick-power/charInfo/${id}`}>
           <button
             className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2"
           >
