@@ -1,5 +1,7 @@
 # rick-power
-https://dev.to/blitty/learning-apollo-and-remembering-react-by-doing-a-project-d-6pn
+
+web page: https://blitty-codes.github.io/rick-power/
+Document: https://dev.to/blitty/learning-apollo-and-remembering-react-by-doing-a-project-d-6pn
 
 # Getting Started with Create React App
 
