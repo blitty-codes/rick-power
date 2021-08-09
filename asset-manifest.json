@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rick-power/static/css/main.5adaf00a.chunk.css",
-    "main.js": "/rick-power/static/js/main.23518112.chunk.js",
-    "main.js.map": "/rick-power/static/js/main.23518112.chunk.js.map",
+    "main.js": "/rick-power/static/js/main.7072c955.chunk.js",
+    "main.js.map": "/rick-power/static/js/main.7072c955.chunk.js.map",
     "runtime-main.js": "/rick-power/static/js/runtime-main.d71f95c3.js",
     "runtime-main.js.map": "/rick-power/static/js/runtime-main.d71f95c3.js.map",
     "static/js/2.b636730b.chunk.js": "/rick-power/static/js/2.b636730b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.d71f95c3.js",
     "static/js/2.b636730b.chunk.js",
     "static/css/main.5adaf00a.chunk.css",
-    "static/js/main.23518112.chunk.js"
+    "static/js/main.7072c955.chunk.js"
   ]
 }
