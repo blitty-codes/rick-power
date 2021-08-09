@@ -3,19 +3,22 @@ import PropTypes from 'prop-types';
 
 // svg from https://fontawesome.com/v5.15/icons/search?style=solid
 
-const Search = ({ input }) => {
-	const [text, setText] = useState(input);
+const Search = ({ callBack }) => {
+	const [text, setText] = useState('');
 
   return (
     <div className="inline-flex absolute mt-5 right-20">
       <input
         className="mr-2 h-8 bg-transparent border-b-2 border-red-800 rounded-md text-black placeholder-gray-700"
-				onChange={e => setText(e.target.value)}
+        onChange={e => setText(e.target.value)}
+        onSubmit={callBack(text)}
         type="text"
         value={text}
         placeholder="Use power to search..."
       />
-      <button>
+      <button
+        onClick={() => callBack(text)}
+      >
         <svg
           aria-hidden="true"
           focusable="false"
@@ -36,8 +39,8 @@ const Search = ({ input }) => {
   );
 };
 
-Search.propTypes = {
-  input: PropTypes.string,
-};
+Search.propTypes = ({
+  callBack: PropTypes.func
+});
 
 export default Search;
