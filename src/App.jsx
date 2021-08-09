@@ -11,7 +11,7 @@ import './styles/custom.css';
 const App = () => (
 	<>
 		<Switch>
-			<Route path="/rick-power/" component={Home} />
+			<Route path="/rick-power/" component={Home} exact />
 			<Route path="/rick-power/charInfo/:id" component={CharInfo} />
 			<Route component={Error} exact />
 		</Switch>
