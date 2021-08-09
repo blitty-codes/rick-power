@@ -40,7 +40,7 @@ const CharInfo = () => {
   return (
     <main>
       <nav className="w-max">
-        <Link to='/'>
+        <Link to='/rick-power/'>
           <h3 className="text-3xl m-4 text-blue-700 underline">
             {'< '} Back
           </h3>
